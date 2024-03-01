@@ -15,6 +15,7 @@ public interface EmployeeUtil {
 	                && employee.getSalary() > 0;
 	    }
 
+	    
 	    public static boolean isValidEmail(String email) {
 	        // Basic email validation, you might want to use a more comprehensive validation method
 	        return email != null && email.matches("[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}");
